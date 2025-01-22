@@ -39,7 +39,7 @@ export const HEADER_OPTIONS: {
       path: "#",
     },
   ],
-  myJobs: [
+  deliverWork: [
     {
       id: 1,
       label: "My Jobs",
@@ -56,7 +56,7 @@ export const HEADER_OPTIONS: {
       path: "#",
     },
   ],
-  overview: [
+  manageFinances: [
     {
       id: 1,
       label: "Overview",

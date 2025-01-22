@@ -46,12 +46,12 @@ const Header = () => {
           options={HEADER_OPTIONS.findWork}
         />
         <CustomizedMenus
-          defaultValue="My Jobs"
-          options={HEADER_OPTIONS.myJobs}
+          defaultValue="Deliver work"
+          options={HEADER_OPTIONS.deliverWork}
         />
         <CustomizedMenus
-          defaultValue="Overview"
-          options={HEADER_OPTIONS.overview}
+          defaultValue="Manage finances"
+          options={HEADER_OPTIONS.manageFinances}
         />
         <Link href="#">Messages</Link>
       </StyledAlignFlex>
@@ -79,13 +79,13 @@ const Header = () => {
                 <StyledBetweenAlignFlex>
                   <Button
                     onClick={toggleButton}
-                    className={checked ? "checked" : ""}
+                    className={checked ? 'checked' : ''}
                   >
                     Online
                   </Button>
                   <Button
                     onClick={toggleButton}
-                    className={checked ? "" : "checked"}
+                    className={checked ? '' : 'checked'}
                   >
                     Invisible
                   </Button>
@@ -94,13 +94,13 @@ const Header = () => {
               <div className="tools">
                 <StyledAlignFlex gap="15px">
                   <SettingsIcon
-                    sx={{ color: "var(--dark-color)", fontSize: 24 }}
+                    sx={{ color: 'var(--dark-color)', fontSize: 24 }}
                   />
                   <p>Settings</p>
                 </StyledAlignFlex>
                 <StyledAlignFlex gap="15px">
                   <LogoutIcon
-                    sx={{ color: "var(--dark-color)", fontSize: 24 }}
+                    sx={{ color: 'var(--dark-color)', fontSize: 24 }}
                   />
                   {/* <p onClick={handleLogout}>Log out</p> */}
                   <p>Log out</p>
